@@ -1,5 +1,5 @@
-﻿using Infrastructure.Data.seed;
-using Infrastructure.Entities;
+﻿using Domain.Entities;
+using Infrastructure.Data.seed;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

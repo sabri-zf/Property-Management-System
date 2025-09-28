@@ -1,19 +1,16 @@
-﻿using Infrastructure.Data;
-using Infrastructure.Entities;
-using Infrastructure.Interfaces;
+﻿using Application.Services;
+using Domain.Entities;
+using Domin.Entities;
+using Infrastructure.Data;
+using Domain.Interfaces;
 using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Infrastructure.Extensions
 {
-    internal static class DependencyInjectionExtension
+    public static class DependencyInjectionExtension
     {
 
 
@@ -38,6 +35,13 @@ namespace Infrastructure.Extensions
             //One instance per scope
             //so all repositories in one request share the same database context
             services.AddScoped<IRepository<Person>, PeopleRepo>();
+            services.AddScoped<IRepository<Admin>, AdminRepo>();
+            services.AddScoped<IRepository<Manager>, ManagerRepo>();
+            services.AddScoped<IRepository<Tenant>, TenantRepo>();
+            services.AddScoped<IRepository<User>, UserRepo>();
+            services.AddScoped<IRepository<Contact>, ContactRepo>();
+
+            services.AddScoped<ClsPeople>();
 
 
             return services;

@@ -1,6 +1,7 @@
 ﻿using Infrastructure.Data;
-using Infrastructure.Entities;
-using Infrastructure.Interfaces;
+using Domain.Entities;
+using Domain.Entities.Entities_Views;
+using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories
@@ -16,15 +17,12 @@ namespace Infrastructure.Repositories
         }
 
 
-        public async Task<bool> AddNewAsync(User entity)
+        public async Task AddNewAsync(User entity)
         {
             if(entity is not User) throw new NullReferenceException("User Object doesn't Exist"); ;
 
             await _context.Users.AddAsync(entity);
-
-            return await _context.SaveChangesAsync() > 0;
         }
-
         public async Task<bool> DeleteAsync(int ID)
         {
 
@@ -51,15 +49,13 @@ namespace Infrastructure.Repositories
                                  
                                  
         }
-
-        public async Task<List<User>?> GetAllAsync()
+        public async Task<List<UserView>?> GetAllAsync()
         {
             // Then Create Table View To represent The Data 
-            return await _context.Users
+            return await _context.UserViews
                                  .AsNoTracking()
                                  .ToListAsync();
         }
-
         public async Task<User?> GetByIDAsync(int ID)
         {
             if(ID <1) throw new InvalidOperationException(nameof(ID) + " is not Valid");

@@ -1,7 +1,8 @@
-﻿using Infrastructure.Data.seed;
-using Infrastructure.Entities;
+﻿using Domin.Entities;
+using Infrastructure.Data.seed;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 
 namespace Infrastructure.Data.Configurations
 {

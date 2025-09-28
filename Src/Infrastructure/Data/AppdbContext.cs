@@ -1,11 +1,12 @@
 ﻿using Infrastructure.Data.Configurations;
-using Infrastructure.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
+using Domain.Entities;
+using Domain.Entities.Entities_Views;
 
 namespace Infrastructure.Data
 {
-    internal class AppdbContext: DbContext
+    public sealed class AppdbContext: DbContext
     {
 
         
@@ -14,6 +15,12 @@ namespace Infrastructure.Data
         public DbSet<Manager> Managers { get; set; }
         public DbSet<Tenant> Tenants { get; set; }
         public DbSet<Contact> Contacts { get; set; }
+        public DbSet<AdminView> AdminViews { get; set; }
+        public DbSet<ManagerView> ManagerViews { get; set; }
+        public DbSet<TenantView> TenantViews { get; set; }
+        public DbSet<ContactView> ContactViews { get; set; }
+        public DbSet<PersonView> personViews { get; set; }
+        public DbSet<UserView> UserViews { get; set; }
 
 
 
@@ -30,6 +37,14 @@ namespace Infrastructure.Data
         {
             // Reduce writing the code to configure Entities by separation of concerns 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(PersonConfiguration).Assembly);
+
+            modelBuilder.Entity<AdminView>().ToView("AdminDetailsView");
+            modelBuilder.Entity<ManagerView>().ToView("ManagerDetailsView");
+            modelBuilder.Entity<TenantView>().ToView("TeanatDetailsView");
+            modelBuilder.Entity<ContactView>().ToView("ContactDetailsView");
+            modelBuilder.Entity<PersonView>().ToView("PeopleDetailsView");
+            modelBuilder.Entity<UserView>().ToView("UsersDetailsView");
+
         }
     }
 }
