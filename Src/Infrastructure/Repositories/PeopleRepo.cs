@@ -1,29 +1,28 @@
 ﻿using Infrastructure.Data;
-using Infrastructure.Entities;
-using Infrastructure.Interfaces;
+using Domain.Entities;
+using Domain.Entities.Entities_Views;
+using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories
 {
-    internal class PeopleRepo :IRepository<Person>
+    public sealed class PeopleRepo :IRepository<Person>
     {
 
 
         readonly AppdbContext _context;
-
 
         public PeopleRepo(AppdbContext context)
         {
             _context = context;
         }
 
-        public async Task<bool> AddNewAsync(Person entity)
+        public async Task AddNewAsync(Person entity)
         {
             if (entity is not Person) throw new NullReferenceException("User Object doesn't Exist"); ;
 
             await _context.Set<Person>().AddAsync(entity);
 
-            return await _context.SaveChangesAsync() > 0;
         }
 
         public async Task<bool> DeleteAsync(int ID)
@@ -33,7 +32,7 @@ namespace Infrastructure.Repositories
 
             return await _context.Set<Person>()
                 .Where(p => p.PersonId == ID)
-                .ExecuteDeleteAsync() > 0;
+                .ExecuteDeleteAsync()>0;
         }
         public async Task<bool> UpdateAsync(Person entity)
         {
@@ -53,10 +52,10 @@ namespace Infrastructure.Repositories
 
         }
 
-        public async Task<List<Person>?> GetAllAsync()
+        public async Task<List<PersonView>?> GetAllAsync()
         {
             // Then Create Table View To represent The Data 
-            return await _context.Set<Person>()
+            return await _context.personViews
                                  .AsNoTracking()
                                  .ToListAsync();
         }

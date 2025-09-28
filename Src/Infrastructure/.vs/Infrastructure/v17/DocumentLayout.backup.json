@@ -3,48 +3,68 @@
   "WorkspaceRootPath": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\peoplerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\peoplerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\services\\clspeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\extensions\\personmappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\dtos\\usermanagementdto\\peopledto\\clspersonrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\seed\\adminseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\seed\\adminseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\dtos\\usermanagementdto\\peopledto\\clspersonresponsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\extensions\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:extensions\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\unit_of_work\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:unit_of_work\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\adminrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\adminrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\contactrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\contactrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\managerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\managerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\peoplerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\peoplerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\tenantrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\tenantrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\seed\\userseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,12 +87,12 @@
       "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\seed\\contactseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\seed\\adminseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\seed\\adminseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\entities\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:entities\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\configurations\\tenantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,16 +103,64 @@
       "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\configurations\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\configurations\\managerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\configurations\\managerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\configurations\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\configurations\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\migrations\\20250925151330_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:migrations\\20250925151330_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\data\\configurations\\adminconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:data\\configurations\\adminconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\entities\\entities_views\\adminview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\entities\\entities_views\\contactview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\entities\\entities_views\\managerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\entities\\entities_views\\personview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\entities\\entities_views\\tenantview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\entities\\entities_views\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\entities\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\entities\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91ADC713-EAEF-4C3B-BDA6-6CC9165F62E5}|..\\PMS_Api\\PMS_Api.csproj|b:\\c#_projects\\property_management_system\\src\\pms_api\\pms_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91ADC713-EAEF-4C3B-BDA6-6CC9165F62E5}|..\\PMS_Api\\PMS_Api.csproj|b:\\c#_projects\\property_management_system\\src\\pms_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\dtos\\usermanagementdto\\usersdto\\clsuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\dtos\\usermanagementdto\\admindto\\clsadminrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\dtos\\usermanagementdto\\contactsdto\\clscontactrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,44 +170,616 @@
       "DocumentGroups": [
         {
           "DockedWidth": 305,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 305,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 34,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AppdbContext.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\AppdbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppdbContext.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\AppdbContext.cs",
-              "RelativeToolTip": "Data\\AppdbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Title": "PersonMappingExtension.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Extensions\\PersonMappingExtension.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Extensions\\PersonMappingExtension.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Extensions\\PersonMappingExtension.cs",
+              "RelativeToolTip": "..\\Application\\Extensions\\PersonMappingExtension.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAA3wB8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T16:28:24.653Z",
+              "WhenOpened": "2025-09-28T14:03:22.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:56:02.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepository.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:55:54.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserSeedData.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\UserSeedData.cs",
+              "RelativeDocumentMoniker": "Data\\seed\\UserSeedData.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\UserSeedData.cs",
+              "RelativeToolTip": "Data\\seed\\UserSeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:51:57.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TenantSeedData.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\TenantSeedData.cs",
+              "RelativeDocumentMoniker": "Data\\seed\\TenantSeedData.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\TenantSeedData.cs",
+              "RelativeToolTip": "Data\\seed\\TenantSeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:51:51.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PersonSeedData.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\PersonSeedData.cs",
+              "RelativeDocumentMoniker": "Data\\seed\\PersonSeedData.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\PersonSeedData.cs",
+              "RelativeToolTip": "Data\\seed\\PersonSeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:51:47.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ManagerSeedData.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\ManagerSeedData.cs",
+              "RelativeDocumentMoniker": "Data\\seed\\ManagerSeedData.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\ManagerSeedData.cs",
+              "RelativeToolTip": "Data\\seed\\ManagerSeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:51:42.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ContactSeedData.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\ContactSeedData.cs",
+              "RelativeDocumentMoniker": "Data\\seed\\ContactSeedData.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\ContactSeedData.cs",
+              "RelativeToolTip": "Data\\seed\\ContactSeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:51:36.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminSeedData.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\AdminSeedData.cs",
+              "RelativeDocumentMoniker": "Data\\seed\\AdminSeedData.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\AdminSeedData.cs",
+              "RelativeToolTip": "Data\\seed\\AdminSeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:51:22.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:51:05.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TenantConfiguration.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\TenantConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\TenantConfiguration.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\TenantConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\TenantConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:50:58.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ManagerConfiguration.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\ManagerConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\ManagerConfiguration.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\ManagerConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\ManagerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:50:41.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ContactConfiguration.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\ContactConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\ContactConfiguration.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\ContactConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\ContactConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:50:18.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminConfiguration.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\AdminConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\AdminConfiguration.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\AdminConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\AdminConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:49:46.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserView.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Entities_Views\\UserView.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Entities_Views\\UserView.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Entities_Views\\UserView.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Entities_Views\\UserView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:44:55.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TenantView.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Entities_Views\\TenantView.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Entities_Views\\TenantView.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Entities_Views\\TenantView.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Entities_Views\\TenantView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:44:48.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PersonView.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Entities_Views\\PersonView.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Entities_Views\\PersonView.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Entities_Views\\PersonView.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Entities_Views\\PersonView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:44:26.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ManagerView.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Entities_Views\\ManagerView.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Entities_Views\\ManagerView.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Entities_Views\\ManagerView.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Entities_Views\\ManagerView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:44:18.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ContactView.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Entities_Views\\ContactView.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Entities_Views\\ContactView.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Entities_Views\\ContactView.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Entities_Views\\ContactView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:44:11.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AdminView.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Entities_Views\\AdminView.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Entities_Views\\AdminView.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Entities_Views\\AdminView.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Entities_Views\\AdminView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:43:58.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "User.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\User.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:43:42.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Tenant.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Tenant.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Tenant.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Tenant.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Tenant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:43:30.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Entities\\User.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Entities\\User.cs",
-              "RelativeToolTip": "Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAATAAAAAAAAAA==",
+              "Title": "Person.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Person.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Person.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Person.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Person.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA4wAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T16:15:28.124Z",
+              "WhenOpened": "2025-09-28T13:43:22.712Z",
               "EditorCaption": ""
             },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Manager.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Manager.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Manager.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:43:12.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Contact.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Contact.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Contact.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:42:55.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Admin.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Entities\\Admin.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:42:32.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PersonConfiguration.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\PersonConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\PersonConfiguration.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\PersonConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\PersonConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:41:06.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Program.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\PMS_Api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\PMS_Api\\Program.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\PMS_Api\\Program.cs",
+              "RelativeToolTip": "..\\PMS_Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T10:45:43.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PMS_Api",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\PMS_Api\\PMS_Api.csproj",
+              "RelativeDocumentMoniker": "..\\PMS_Api\\PMS_Api.csproj",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\PMS_Api\\PMS_Api.csproj",
+              "RelativeToolTip": "..\\PMS_Api\\PMS_Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-28T10:39:02.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ClsUserRequestDto.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\DTOs\\UserManagementDto\\UsersDto\\ClsUserRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTOs\\UserManagementDto\\UsersDto\\ClsUserRequestDto.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\DTOs\\UserManagementDto\\UsersDto\\ClsUserRequestDto.cs",
+              "RelativeToolTip": "..\\Application\\DTOs\\UserManagementDto\\UsersDto\\ClsUserRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T15:37:13.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClsPersonResponsDto.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\DTOs\\UserManagementDto\\PeopleDto\\ClsPersonResponsDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTOs\\UserManagementDto\\PeopleDto\\ClsPersonResponsDto.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\DTOs\\UserManagementDto\\PeopleDto\\ClsPersonResponsDto.cs",
+              "RelativeToolTip": "..\\Application\\DTOs\\UserManagementDto\\PeopleDto\\ClsPersonResponsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T15:07:45.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClsPersonRequestDto.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\DTOs\\UserManagementDto\\PeopleDto\\ClsPersonRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTOs\\UserManagementDto\\PeopleDto\\ClsPersonRequestDto.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\DTOs\\UserManagementDto\\PeopleDto\\ClsPersonRequestDto.cs",
+              "RelativeToolTip": "..\\Application\\DTOs\\UserManagementDto\\PeopleDto\\ClsPersonRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T15:06:38.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjectionExtension.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Extensions\\DependencyInjectionExtension.cs",
+              "RelativeDocumentMoniker": "Extensions\\DependencyInjectionExtension.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Extensions\\DependencyInjectionExtension.cs",
+              "RelativeToolTip": "Extensions\\DependencyInjectionExtension.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA2wCUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:57:36.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContextFactory.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA6wCsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:56:39.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClsPeople.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Services\\ClsPeople.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\ClsPeople.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Services\\ClsPeople.cs",
+              "RelativeToolTip": "..\\Application\\Services\\ClsPeople.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswFAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:16:12.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Application",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "..\\Application\\Application.csproj",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Application.csproj",
+              "RelativeToolTip": "..\\Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-27T14:14:30.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactRepo.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\ContactRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\ContactRepo.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\ContactRepo.cs",
+              "RelativeToolTip": "Repositories\\ContactRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:54:43.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TenantRepo.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\TenantRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\TenantRepo.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\TenantRepo.cs",
+              "RelativeToolTip": "Repositories\\TenantRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:43:15.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManagerRepo.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\ManagerRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\ManagerRepo.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\ManagerRepo.cs",
+              "RelativeToolTip": "Repositories\\ManagerRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:34:52.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppdbContext.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\AppdbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppdbContext.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\AppdbContext.cs",
+              "RelativeToolTip": "Data\\AppdbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:24:23.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminRepo.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\AdminRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\AdminRepo.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\AdminRepo.cs",
+              "RelativeToolTip": "Repositories\\AdminRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:06:20.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\UserRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepo.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\UserRepo.cs",
+              "RelativeToolTip": "Repositories\\UserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:05:19.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Unit_Of_Work\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Unit_Of_Work\\UnitOfWork.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Unit_Of_Work\\UnitOfWork.cs",
+              "RelativeToolTip": "Unit_Of_Work\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:52:04.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PeopleRepo.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\PeopleRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\PeopleRepo.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\PeopleRepo.cs",
+              "RelativeToolTip": "Repositories\\PeopleRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:41:42.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ClsAdminRequestDto.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\DTOs\\UserManagementDto\\AdminDto\\ClsAdminRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTOs\\UserManagementDto\\AdminDto\\ClsAdminRequestDto.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\DTOs\\UserManagementDto\\AdminDto\\ClsAdminRequestDto.cs",
+              "RelativeToolTip": "..\\Application\\DTOs\\UserManagementDto\\AdminDto\\ClsAdminRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:40:02.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ClsContactRequestDto.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\DTOs\\UserManagementDto\\ContactsDto\\ClsContactRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTOs\\UserManagementDto\\ContactsDto\\ClsContactRequestDto.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\DTOs\\UserManagementDto\\ContactsDto\\ClsContactRequestDto.cs",
+              "RelativeToolTip": "..\\Application\\DTOs\\UserManagementDto\\ContactsDto\\ClsContactRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:38:02.481Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 305,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -147,262 +787,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IRepository.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T15:44:48.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\UserRepo.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepo.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\UserRepo.cs",
-              "RelativeToolTip": "Repositories\\UserRepo.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T15:39:39.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20250925151330_InitialCreate.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Migrations\\20250925151330_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250925151330_InitialCreate.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Migrations\\20250925151330_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20250925151330_InitialCreate.cs",
-              "ViewState": "AgIAAM0AAAAAAAAAAAA2wNgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T15:13:30.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserSeedData.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\UserSeedData.cs",
-              "RelativeDocumentMoniker": "Data\\seed\\UserSeedData.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\UserSeedData.cs",
-              "RelativeToolTip": "Data\\seed\\UserSeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T14:57:09.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TenantSeedData.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\TenantSeedData.cs",
-              "RelativeDocumentMoniker": "Data\\seed\\TenantSeedData.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\TenantSeedData.cs",
-              "RelativeToolTip": "Data\\seed\\TenantSeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T14:56:41.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PersonSeedData.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\PersonSeedData.cs",
-              "RelativeDocumentMoniker": "Data\\seed\\PersonSeedData.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\PersonSeedData.cs",
-              "RelativeToolTip": "Data\\seed\\PersonSeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T14:56:19.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ManagerSeedData.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\ManagerSeedData.cs",
-              "RelativeDocumentMoniker": "Data\\seed\\ManagerSeedData.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\ManagerSeedData.cs",
-              "RelativeToolTip": "Data\\seed\\ManagerSeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T14:56:01.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ContactSeedData.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\ContactSeedData.cs",
-              "RelativeDocumentMoniker": "Data\\seed\\ContactSeedData.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\ContactSeedData.cs",
-              "RelativeToolTip": "Data\\seed\\ContactSeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T14:55:30.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AdminSeedData.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\AdminSeedData.cs",
-              "RelativeDocumentMoniker": "Data\\seed\\AdminSeedData.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\seed\\AdminSeedData.cs",
-              "RelativeToolTip": "Data\\seed\\AdminSeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T14:54:14.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Entities\\Admin.cs",
-              "RelativeDocumentMoniker": "Entities\\Admin.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Entities\\Admin.cs",
-              "RelativeToolTip": "Entities\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T14:53:27.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-25T14:26:35.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContextFactory.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\AppDbContextFactory.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContextFactory.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\AppDbContextFactory.cs",
-              "RelativeToolTip": "Data\\AppDbContextFactory.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAmwCoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T14:10:03.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Tenant.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Entities\\Tenant.cs",
-              "RelativeDocumentMoniker": "Entities\\Tenant.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Entities\\Tenant.cs",
-              "RelativeToolTip": "Entities\\Tenant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T13:43:23.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DependencyInjectionExtension.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Extensions\\DependencyInjectionExtension.cs",
-              "RelativeDocumentMoniker": "Extensions\\DependencyInjectionExtension.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Extensions\\DependencyInjectionExtension.cs",
-              "RelativeToolTip": "Extensions\\DependencyInjectionExtension.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAADwvx8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T13:43:07.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PeopleRepo.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\PeopleRepo.cs",
-              "RelativeDocumentMoniker": "Repositories\\PeopleRepo.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\PeopleRepo.cs",
-              "RelativeToolTip": "Repositories\\PeopleRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T13:42:51.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TenantConfiguration.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\TenantConfiguration.cs",
-              "RelativeDocumentMoniker": "Data\\Configurations\\TenantConfiguration.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\TenantConfiguration.cs",
-              "RelativeToolTip": "Data\\Configurations\\TenantConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T12:58:41.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PersonConfiguration.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\PersonConfiguration.cs",
-              "RelativeDocumentMoniker": "Data\\Configurations\\PersonConfiguration.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\PersonConfiguration.cs",
-              "RelativeToolTip": "Data\\Configurations\\PersonConfiguration.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T12:58:37.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Person.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Entities\\Person.cs",
-              "RelativeDocumentMoniker": "Entities\\Person.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Entities\\Person.cs",
-              "RelativeToolTip": "Entities\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T12:58:21.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Entities\\Contact.cs",
-              "RelativeDocumentMoniker": "Entities\\Contact.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Entities\\Contact.cs",
-              "RelativeToolTip": "Entities\\Contact.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T12:06:34.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ContactConfiguration.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\ContactConfiguration.cs",
-              "RelativeDocumentMoniker": "Data\\Configurations\\ContactConfiguration.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\ContactConfiguration.cs",
-              "RelativeToolTip": "Data\\Configurations\\ContactConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T12:06:08.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "Data\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "Data\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAzwC4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:10:51.001Z"
             }
           ]
         }
