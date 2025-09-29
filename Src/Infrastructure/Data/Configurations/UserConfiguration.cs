@@ -33,18 +33,9 @@ namespace Infrastructure.Data.Configurations
                   .IsRequired()
                   .HasColumnOrder(3);
 
-            builder.Property(x => x.CreateAt)
-                  .IsRequired()
-                  .HasColumnOrder(4);
-
-            builder.Property(x => x.UpdateAt)
-                 .IsRequired(false)
-                 .HasColumnOrder(5);
-
-
             builder.Property(x => x.IsActive)
                  .IsRequired()
-                 .HasColumnOrder(6);
+                 .HasColumnOrder(4);
 
             builder.HasOne(x => x.Person)
                    .WithMany()

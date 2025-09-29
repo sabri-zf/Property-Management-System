@@ -1,6 +1,5 @@
 ﻿using Infrastructure.Data;
 using Domain.Entities;
-using Domain.Entities.Entities_Views;
 using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -40,30 +39,41 @@ namespace Infrastructure.Repositories
 
          return await _context.Users
                                  .Where(x => x.UserId == entity.UserId)
+                                 .Include(x => x.Person)
                                  .ExecuteUpdateAsync(P => P
                                     .SetProperty(x =>  x.Username, entity.Username)
                                     .SetProperty(x => x.Password, entity.Password)
-                                    .SetProperty(x => x.UpdateAt, entity.UpdateAt)
+                                    .SetProperty(x => x.Person.updateAt, entity.Person.updateAt)
                                     .SetProperty(x => x.IsActive, entity.IsActive)
                                   ) > 0;  
-                                 
-                                 
         }
-        public async Task<List<UserView>?> GetAllAsync()
+        public async Task<IQueryable<User>?> GetAllAsync()
         {
             // Then Create Table View To represent The Data 
-            return await _context.UserViews
-                                 .AsNoTracking()
-                                 .ToListAsync();
+            return await (Task<IQueryable<User>?>) _context.Users
+                                 .Include(x => x.Person)
+                                 .AsNoTracking();
+                                 
+                                 
         }
         public async Task<User?> GetByIDAsync(int ID)
         {
             if(ID <1) throw new InvalidOperationException(nameof(ID) + " is not Valid");
 
             return await _context.Users
-                          .SingleOrDefaultAsync(P => P.UserId == ID);
+                                 .Include(x => x.Person)
+                                 .AsNoTracking()
+                                 .SingleOrDefaultAsync(P => P.UserId == ID);
+                                
         }
 
-      
+        public async Task<bool> IsValid_UserNameAndPasswordAsync(ISepecification<User> sepc)
+        {
+            return await sepc.Apply(_context.Users).AnyAsync() ;
+        }
+        public Task<IEnumerable<User>> FindAsync(ISepecification<User> sepecification)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

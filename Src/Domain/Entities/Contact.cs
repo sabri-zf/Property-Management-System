@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Domain.Entities;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domin.Entities
@@ -26,6 +27,6 @@ namespace Domin.Entities
         public  int PerosnID { get; set; }
 
         // Relationship : any Person can have many Contacts
-        public virtual ICollection<Person> People { get; set; } = new List<Person>();
+        public  ICollection<Person> People { get; set; } = new List<Person>();
     }
 }

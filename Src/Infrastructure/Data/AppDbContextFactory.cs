@@ -24,24 +24,24 @@ namespace Infrastructure.Data
     ------------------------------------------------------------------------------------------------------------------*/
 
 
-    internal class AppDbContextFactory : IDesignTimeDbContextFactory<AppdbContext>
-    {
-        public AppdbContext CreateDbContext(string[] args)
-        {
+    //internal class AppDbContextFactory : IDesignTimeDbContextFactory<AppdbContext>
+    //{
+    //    public AppdbContext CreateDbContext(string[] args)
+    //{
 
-            //prepare the connection from json file
-            var connectionStr = new ConfigurationBuilder()
-                                    .SetBasePath(Directory.GetCurrentDirectory())
-                                    .AddJsonFile("appsettings.json",optional:false,reloadOnChange:true)
-                                    .Build()
-                                    .GetSection("connectionString");
+    //    //prepare the connection from json file
+    //    //var connectionStr = new ConfigurationBuilder()
+    //    //                        .SetBasePath(Directory.GetCurrentDirectory())
+    //    //                        .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    //    //                        .Build()
+    //    //                        .GetSection("connectionString");
 
-            // option bulider Dbcontxt
-            var OptionBulider = new DbContextOptionsBuilder<AppdbContext>()
-                                     .UseSqlServer(connectionStr.Value);  
+    //    // option bulider Dbcontxt
+    //    var OptionBulider = new DbContextOptionsBuilder<AppdbContext>()
+    //                             .UseSqlServer("Server=.;dataBase=PMS_db;User Id=sa;Password=sa123456;TrustServerCertificate=True;");
 
 
-            return new AppdbContext(OptionBulider.Options);
-        }
-    }
+    //    return new AppdbContext(OptionBulider.Options);
+    //}
+//}
 }

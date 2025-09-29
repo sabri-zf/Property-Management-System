@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using Domain.Entities;
 using Domain.Entities.Entities_Views;
+using Domin.Entities;
 
 namespace Infrastructure.Data
 {

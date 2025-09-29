@@ -1,4 +1,4 @@
-﻿using Domain.Entities;
+﻿using Domin.Entities;
 
 namespace Infrastructure.Data.seed
 {

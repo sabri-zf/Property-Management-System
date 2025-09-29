@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories
 {
-    internal sealed class TenantRepo:IRepository<Tenant>
+    internal sealed class TenantRepo : IRepository<Tenant>
     {
         readonly AppdbContext _context;
 
@@ -33,7 +33,6 @@ namespace Infrastructure.Repositories
                 .ExecuteDeleteAsync() > 0;
         }
 
-        [Obsolete("Update data is doesn't Work Now", error: true)]
         public async Task<bool> UpdateAsync(Tenant entity)
         {
 
@@ -42,15 +41,17 @@ namespace Infrastructure.Repositories
 
             return await _context.Tenants
                                     .Where(x => x.TenantId == entity.TenantId)
-                                    .ExecuteUpdateAsync(p => p) > 0;
+                                    .Include(x => x.Person)
+                                    .ExecuteUpdateAsync(p => p
+                                    .SetProperty(x => x.Person.updateAt, entity.Person.updateAt)) > 0;
         }
 
-        public async Task<List<TenantView>?> GetAllAsync()
+        public async Task<IQueryable<Tenant>?> GetAllAsync()
         {
             // Then Create Table View To represent The Data 
-            return await _context.TenantViews
-                                 .AsNoTracking()
-                                 .ToListAsync();
+            return await (Task<IQueryable<Tenant>?>)_context.Tenants
+                                                            .Include(x => x.Person)
+                                                            .AsNoTracking();
         }
 
         public async Task<Tenant?> GetByIDAsync(int ID)
@@ -59,6 +60,16 @@ namespace Infrastructure.Repositories
 
             return await _context.Tenants
                                  .SingleOrDefaultAsync(P => P.TenantId == ID);
+        }
+
+        public Task<IEnumerable<Tenant>> FindAsync(ISepecification<Tenant> sepecification)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> IsValid_UserNameAndPasswordAsync(ISepecification<Tenant> sepecification)
+        {
+            throw new NotImplementedException();
         }
     }
 }

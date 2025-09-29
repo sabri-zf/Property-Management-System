@@ -258,6 +258,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Application.csproj": {
+                "projectPath": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Application.csproj"
+              },
               "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Infrastructure.csproj"
               }

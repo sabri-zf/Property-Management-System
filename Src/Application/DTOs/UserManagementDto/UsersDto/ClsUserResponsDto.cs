@@ -4,9 +4,12 @@ namespace Application.DTOs.UserManagementDto.UsersDto
 {
     public record ClsUserResponsDto
    (
-       ClsPersonResponsDto Person,
+       string FirstName,
+       string LastName,
+       string? MidName,
        string Username,
        string Password,
+       DateOnly BirthDay,
        DateTime CreateAt,
        DateTime? UpdateAt,
        bool IsActive

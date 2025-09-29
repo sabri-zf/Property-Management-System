@@ -22,7 +22,7 @@ namespace Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Infrastructure.Entities.Admin", b =>
+            modelBuilder.Entity("Domain.Entities.Admin", b =>
                 {
                     b.Property<int>("AdminId")
                         .ValueGeneratedOnAdd()
@@ -49,7 +49,438 @@ namespace Infrastructure.Migrations
                         });
                 });
 
-            modelBuilder.Entity("Infrastructure.Entities.Contact", b =>
+            modelBuilder.Entity("Domain.Entities.Entities_Views.AdminView", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("BirthDay")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("createAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("updateAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable((string)null);
+
+                    b.ToView("AdminDetailsView", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Entities_Views.ContactView", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable((string)null);
+
+                    b.ToView("ContactDetailsView", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Entities_Views.ManagerView", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("BirthDay")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("createAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("updateAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable((string)null);
+
+                    b.ToView("ManagerDetailsView", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Entities_Views.PersonView", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("BirthDay")
+                        .HasColumnType("date");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("createAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("updateAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable((string)null);
+
+                    b.ToView("PeopleDetailsView", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Entities_Views.TenantView", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("BirthDay")
+                        .HasColumnType("date");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("createAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("updateAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable((string)null);
+
+                    b.ToView("TeanatDetailsView", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Entities_Views.UserView", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("BirthDay")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("createAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("updateAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable((string)null);
+
+                    b.ToView("UsersDetailsView", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Manager", b =>
+                {
+                    b.Property<int>("ManagerId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ManagerId"));
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ManagerId")
+                        .HasAnnotation("idintity", "1,1");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Managers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            ManagerId = 1,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            ManagerId = 2,
+                            UserId = 3
+                        });
+                });
+
+            modelBuilder.Entity("Domain.Entities.Person", b =>
+                {
+                    b.Property<int>("PersonId")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("Birthday")
+                        .HasColumnType("date");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("MidName")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime>("createAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("updateAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("PersonId")
+                        .HasAnnotation("idintity", "1,1");
+
+                    b.ToTable("People", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            PersonId = 1,
+                            Birthday = new DateOnly(2001, 8, 27),
+                            FirstName = "Sabri",
+                            LastName = "Zekkour Ferhat",
+                            createAt = new DateTime(2025, 8, 12, 11, 30, 30, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            PersonId = 2,
+                            Birthday = new DateOnly(2002, 1, 10),
+                            FirstName = "Mohammed",
+                            LastName = "Ali",
+                            createAt = new DateTime(2025, 8, 12, 11, 30, 30, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            PersonId = 3,
+                            Birthday = new DateOnly(1985, 11, 22),
+                            FirstName = "Khalifa",
+                            LastName = "Abu-Salah",
+                            createAt = new DateTime(2025, 8, 12, 11, 30, 30, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            PersonId = 4,
+                            Birthday = new DateOnly(1970, 3, 15),
+                            FirstName = "BenSalim",
+                            LastName = "Sahraoui",
+                            createAt = new DateTime(2025, 8, 12, 11, 30, 30, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            PersonId = 5,
+                            Birthday = new DateOnly(1993, 6, 1),
+                            FirstName = "Salma",
+                            LastName = "Tdjany",
+                            createAt = new DateTime(2025, 8, 12, 11, 30, 30, 0, DateTimeKind.Unspecified)
+                        });
+                });
+
+            modelBuilder.Entity("Domain.Entities.Tenant", b =>
+                {
+                    b.Property<int>("TenantId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TenantId"));
+
+                    b.Property<int>("PersonId")
+                        .HasColumnType("int");
+
+                    b.HasKey("TenantId")
+                        .HasAnnotation("idintity", "1,1");
+
+                    b.HasIndex("PersonId");
+
+                    b.ToTable("Tenants", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            TenantId = 1,
+                            PersonId = 4
+                        },
+                        new
+                        {
+                            TenantId = 2,
+                            PersonId = 5
+                        });
+                });
+
+            modelBuilder.Entity("Domain.Entities.User", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnOrder(0);
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit")
+                        .HasColumnOrder(4);
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(9)
+                        .HasColumnType("nvarchar(9)")
+                        .HasColumnOrder(3);
+
+                    b.Property<int>("PersonId")
+                        .HasColumnType("int")
+                        .HasColumnOrder(1);
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)")
+                        .HasColumnOrder(2);
+
+                    b.HasKey("UserId")
+                        .HasAnnotation("idintity", "1,1");
+
+                    b.HasIndex("PersonId");
+
+                    b.ToTable("Users", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = 1,
+                            IsActive = true,
+                            Password = "1234",
+                            PersonId = 1,
+                            Username = "Admin"
+                        },
+                        new
+                        {
+                            UserId = 2,
+                            IsActive = true,
+                            Password = "absd",
+                            PersonId = 2,
+                            Username = "@Mo_15"
+                        },
+                        new
+                        {
+                            UserId = 3,
+                            IsActive = false,
+                            Password = "Ka123",
+                            PersonId = 3,
+                            Username = "@Kalif_125"
+                        });
+                });
+
+            modelBuilder.Entity("Domin.Entities.Contact", b =>
                 {
                     b.Property<int>("ContactId")
                         .ValueGeneratedOnAdd()
@@ -122,221 +553,20 @@ namespace Infrastructure.Migrations
                         });
                 });
 
-            modelBuilder.Entity("Infrastructure.Entities.Manager", b =>
+            modelBuilder.Entity("Domain.Entities.Admin", b =>
                 {
-                    b.Property<int>("ManagerId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ManagerId"));
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("ManagerId")
-                        .HasAnnotation("idintity", "1,1");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Managers", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            ManagerId = 1,
-                            UserId = 2
-                        },
-                        new
-                        {
-                            ManagerId = 2,
-                            UserId = 3
-                        });
-                });
-
-            modelBuilder.Entity("Infrastructure.Entities.Person", b =>
-                {
-                    b.Property<int>("PersonId")
-                        .HasColumnType("int");
-
-                    b.Property<DateOnly>("Birthday")
-                        .HasColumnType("date");
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("MidName")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("PersonId")
-                        .HasAnnotation("idintity", "1,1");
-
-                    b.ToTable("People", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            PersonId = 1,
-                            Birthday = new DateOnly(2001, 8, 27),
-                            FirstName = "Sabri",
-                            LastName = "Zekkour Ferhat"
-                        },
-                        new
-                        {
-                            PersonId = 2,
-                            Birthday = new DateOnly(2002, 1, 10),
-                            FirstName = "Mohammed",
-                            LastName = "Ali"
-                        },
-                        new
-                        {
-                            PersonId = 3,
-                            Birthday = new DateOnly(1985, 11, 22),
-                            FirstName = "Khalifa",
-                            LastName = "Abu-Salah"
-                        },
-                        new
-                        {
-                            PersonId = 4,
-                            Birthday = new DateOnly(1970, 3, 15),
-                            FirstName = "BenSalim",
-                            LastName = "Sahraoui"
-                        },
-                        new
-                        {
-                            PersonId = 5,
-                            Birthday = new DateOnly(1993, 6, 1),
-                            FirstName = "Salma",
-                            LastName = "Tdjany"
-                        });
-                });
-
-            modelBuilder.Entity("Infrastructure.Entities.Tenant", b =>
-                {
-                    b.Property<int>("TenantId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TenantId"));
-
-                    b.Property<int>("PersonId")
-                        .HasColumnType("int");
-
-                    b.HasKey("TenantId")
-                        .HasAnnotation("idintity", "1,1");
-
-                    b.HasIndex("PersonId");
-
-                    b.ToTable("Tenants", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            TenantId = 1,
-                            PersonId = 4
-                        },
-                        new
-                        {
-                            TenantId = 2,
-                            PersonId = 5
-                        });
-                });
-
-            modelBuilder.Entity("Infrastructure.Entities.User", b =>
-                {
-                    b.Property<int>("UserId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnOrder(0);
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
-
-                    b.Property<DateTime>("CreateAt")
-                        .HasColumnType("datetime2")
-                        .HasColumnOrder(4);
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit")
-                        .HasColumnOrder(6);
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasMaxLength(9)
-                        .HasColumnType("nvarchar(9)")
-                        .HasColumnOrder(3);
-
-                    b.Property<int>("PersonId")
-                        .HasColumnType("int")
-                        .HasColumnOrder(1);
-
-                    b.Property<DateTime?>("UpdateAt")
-                        .HasColumnType("datetime2")
-                        .HasColumnOrder(5);
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)")
-                        .HasColumnOrder(2);
-
-                    b.HasKey("UserId")
-                        .HasAnnotation("idintity", "1,1");
-
-                    b.HasIndex("PersonId");
-
-                    b.ToTable("Users", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            UserId = 1,
-                            CreateAt = new DateTime(2025, 6, 20, 10, 22, 9, 0, DateTimeKind.Unspecified),
-                            IsActive = true,
-                            Password = "1234",
-                            PersonId = 1,
-                            Username = "Admin"
-                        },
-                        new
-                        {
-                            UserId = 2,
-                            CreateAt = new DateTime(2025, 8, 5, 18, 6, 45, 0, DateTimeKind.Unspecified),
-                            IsActive = true,
-                            Password = "absd",
-                            PersonId = 2,
-                            Username = "@Mo_15"
-                        },
-                        new
-                        {
-                            UserId = 3,
-                            CreateAt = new DateTime(2025, 8, 10, 0, 22, 1, 0, DateTimeKind.Unspecified),
-                            IsActive = false,
-                            Password = "Ka123",
-                            PersonId = 3,
-                            Username = "@Kalif_125"
-                        });
-                });
-
-            modelBuilder.Entity("Infrastructure.Entities.Admin", b =>
-                {
-                    b.HasOne("Infrastructure.Entities.User", "User")
+                    b.HasOne("Domain.Entities.User", "User")
                         .WithOne("Admin")
-                        .HasForeignKey("Infrastructure.Entities.Admin", "UserId")
+                        .HasForeignKey("Domain.Entities.Admin", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Infrastructure.Entities.Manager", b =>
+            modelBuilder.Entity("Domain.Entities.Manager", b =>
                 {
-                    b.HasOne("Infrastructure.Entities.User", "User")
+                    b.HasOne("Domain.Entities.User", "User")
                         .WithMany("Managers")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -345,9 +575,9 @@ namespace Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Infrastructure.Entities.Person", b =>
+            modelBuilder.Entity("Domain.Entities.Person", b =>
                 {
-                    b.HasOne("Infrastructure.Entities.Contact", "Contact")
+                    b.HasOne("Domin.Entities.Contact", "Contact")
                         .WithMany("People")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -356,9 +586,9 @@ namespace Infrastructure.Migrations
                     b.Navigation("Contact");
                 });
 
-            modelBuilder.Entity("Infrastructure.Entities.Tenant", b =>
+            modelBuilder.Entity("Domain.Entities.Tenant", b =>
                 {
-                    b.HasOne("Infrastructure.Entities.Person", "Person")
+                    b.HasOne("Domain.Entities.Person", "Person")
                         .WithMany()
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -367,9 +597,9 @@ namespace Infrastructure.Migrations
                     b.Navigation("Person");
                 });
 
-            modelBuilder.Entity("Infrastructure.Entities.User", b =>
+            modelBuilder.Entity("Domain.Entities.User", b =>
                 {
-                    b.HasOne("Infrastructure.Entities.Person", "Person")
+                    b.HasOne("Domain.Entities.Person", "Person")
                         .WithMany()
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -378,17 +608,17 @@ namespace Infrastructure.Migrations
                     b.Navigation("Person");
                 });
 
-            modelBuilder.Entity("Infrastructure.Entities.Contact", b =>
-                {
-                    b.Navigation("People");
-                });
-
-            modelBuilder.Entity("Infrastructure.Entities.User", b =>
+            modelBuilder.Entity("Domain.Entities.User", b =>
                 {
                     b.Navigation("Admin")
                         .IsRequired();
 
                     b.Navigation("Managers");
+                });
+
+            modelBuilder.Entity("Domin.Entities.Contact", b =>
+                {
+                    b.Navigation("People");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,5 +1,4 @@
-﻿using Application.Services;
-using Domain.Entities;
+﻿using Domain.Entities;
 using Domin.Entities;
 using Infrastructure.Data;
 using Domain.Interfaces;
@@ -7,6 +6,9 @@ using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Infrastructure.Unit_Of_Work;
+using Application.Services.Users;
+using Application.Services.People;
 
 namespace Infrastructure.Extensions
 {
@@ -30,8 +32,14 @@ namespace Infrastructure.Extensions
             return services;
         }
 
-        public static IServiceCollection AddDependencyGroup_Infrastructure(this IServiceCollection services)
+        public static IServiceCollection AddDependencyGroup_Infrastructure(this IServiceCollection services,string ConnectionString)
         {
+            services.AddDbContext<AppdbContext>(option =>
+            {
+                option.UseSqlServer(ConnectionString);
+            });
+
+
             //One instance per scope
             //so all repositories in one request share the same database context
             services.AddScoped<IRepository<Person>, PeopleRepo>();
@@ -40,8 +48,10 @@ namespace Infrastructure.Extensions
             services.AddScoped<IRepository<Tenant>, TenantRepo>();
             services.AddScoped<IRepository<User>, UserRepo>();
             services.AddScoped<IRepository<Contact>, ContactRepo>();
+            services.AddScoped<IUnitOfWork,UnitOfWork>();
 
-            services.AddScoped<ClsPeople>();
+            services.AddScoped<ClsPeopleData>();
+            services.AddScoped<ClsUsers>();
 
 
             return services;

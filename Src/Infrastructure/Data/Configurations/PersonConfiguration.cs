@@ -29,6 +29,9 @@ namespace Infrastructure.Data.Configurations
             builder.Property(x => x.Birthday)
                   .IsRequired();
 
+            builder.Property(x => x.updateAt)
+                  .IsRequired(false);
+
 
             builder.HasData(PersonSeedData.people);
         }

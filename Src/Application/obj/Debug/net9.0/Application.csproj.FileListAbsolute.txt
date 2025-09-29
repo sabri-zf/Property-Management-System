@@ -1,0 +1,16 @@
+B:\C#_projects\Property_Management_System\Src\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+B:\C#_projects\Property_Management_System\Src\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+B:\C#_projects\Property_Management_System\Src\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+B:\C#_projects\Property_Management_System\Src\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+B:\C#_projects\Property_Management_System\Src\Application\obj\Debug\net9.0\Application.sourcelink.json
+B:\C#_projects\Property_Management_System\Src\Application\bin\Debug\net9.0\Application.deps.json
+B:\C#_projects\Property_Management_System\Src\Application\bin\Debug\net9.0\Application.dll
+B:\C#_projects\Property_Management_System\Src\Application\bin\Debug\net9.0\Application.pdb
+B:\C#_projects\Property_Management_System\Src\Application\bin\Debug\net9.0\Domain.dll
+B:\C#_projects\Property_Management_System\Src\Application\bin\Debug\net9.0\Domain.pdb
+B:\C#_projects\Property_Management_System\Src\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+B:\C#_projects\Property_Management_System\Src\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+B:\C#_projects\Property_Management_System\Src\Application\obj\Debug\net9.0\Application.dll
+B:\C#_projects\Property_Management_System\Src\Application\obj\Debug\net9.0\refint\Application.dll
+B:\C#_projects\Property_Management_System\Src\Application\obj\Debug\net9.0\Application.pdb
+B:\C#_projects\Property_Management_System\Src\Application\obj\Debug\net9.0\ref\Application.dll

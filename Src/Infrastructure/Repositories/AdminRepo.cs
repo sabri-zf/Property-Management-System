@@ -2,7 +2,6 @@
 using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Domain.Entities;
-using Domain.Entities.Entities_Views;
 
 namespace Infrastructure.Repositories
 {
@@ -33,24 +32,26 @@ namespace Infrastructure.Repositories
             if (entity is not Admin) throw new NullReferenceException("User Object doesn't Exist");
             if (entity.AdminId < 1) throw new InvalidOperationException(" ID is not Valid");
 
-            return await _context.Admins
-                                    .Where(x => x.AdminId == entity.AdminId)
-                                    .ExecuteUpdateAsync(P => P
-                                       .SetProperty(x => x.FirstName, entity.FirstName)
-                                       .SetProperty(x => x.LastName, entity.LastName)
-                                       .SetProperty(x => x.MidName, entity.MidName)
-                                       .SetProperty(x => x.Birthday, entity.Birthday)
-                                     ) > 0;
+            return  false;
+            //return await _context.Admins
+            //                        .Where(x => x.AdminId == entity.AdminId)
+            //                        .ExecuteUpdateAsync(P => P
+            //                           .SetProperty(x => x.use, entity.FirstName)
+            //                           .SetProperty(x => x.LastName, entity.LastName)
+            //                           .SetProperty(x => x.MidName, entity.MidName)
+            //                           .SetProperty(x => x.Birthday, entity.Birthday)
+            //                         ) > 0;
 
 
         }
 
-        public async Task<List<AdminView>?> GetAllAsync()
+        public async Task<IQueryable<Admin>?> GetAllAsync()
         {
             // Then Create Table View To represent The Data 
-            return await _context.AdminViews
-                                 .AsNoTracking()
-                                 .ToListAsync();
+            return await (Task<IQueryable<Admin>?>) _context.Admins
+                                                      .Include(A => A.User)
+                                                      .ThenInclude(U => U.Person)
+                                                      .AsNoTracking();
         }
 
         public async Task<Admin?> GetByIDAsync(int ID)
@@ -59,6 +60,17 @@ namespace Infrastructure.Repositories
 
             return await _context.Admins
                           .SingleOrDefaultAsync(P => P.AdminId == ID);
+        }
+
+        public async Task<IEnumerable<Admin>> FindAsync(ISepecification<Admin> sepc)
+        {
+            var query =  sepc.Apply(_context.Admins.AsQueryable());
+            return await query.ToListAsync();
+        }
+
+        public Task<bool> IsValid_UserNameAndPasswordAsync(ISepecification<Admin> sepecification)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Domin.Entities;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Entities
@@ -26,7 +27,7 @@ namespace Domain.Entities
         // collection of Users 
         // collextion of Tenants
 
-        public virtual Contact Contact { get; set; }
+        public  Contact Contact { get; set; }
         //public virtual ICollection<User> Users { get; set; } = new List<User>();
         //public virtual ICollection<Tenant> Tenants { get; set; } = new List<Tenant  >();
     }

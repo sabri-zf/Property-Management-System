@@ -13,4 +13,8 @@ B:\C#_projects\Property_Management_System\Src\Infrastructure\obj\Debug\net9.0\re
 B:\C#_projects\Property_Management_System\Src\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 B:\C#_projects\Property_Management_System\Src\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
 B:\C#_projects\Property_Management_System\Src\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
-B:\C#_projects\Property_Management_System\Src\Infrastructure\bin\Debug\net9.0\appsettings.json
+B:\C#_projects\Property_Management_System\Src\Infrastructure\bin\Debug\net9.0\Application.dll
+B:\C#_projects\Property_Management_System\Src\Infrastructure\bin\Debug\net9.0\Domain.dll
+B:\C#_projects\Property_Management_System\Src\Infrastructure\bin\Debug\net9.0\Application.pdb
+B:\C#_projects\Property_Management_System\Src\Infrastructure\bin\Debug\net9.0\Domain.pdb
+B:\C#_projects\Property_Management_System\Src\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date

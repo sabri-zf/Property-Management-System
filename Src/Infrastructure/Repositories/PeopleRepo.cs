@@ -38,7 +38,7 @@ namespace Infrastructure.Repositories
         {
 
             if (entity is not Person) throw new NullReferenceException("User Object doesn't Exist");
-            if (entity.PersonId < 1) throw new InvalidOperationException(" ID is not Valid");
+            if (entity.PersonId < 1) throw new (" ID is not Valid");
 
             return await _context.Set<Person>()
                                     .Where(x => x.PersonId == entity.PersonId)
@@ -48,16 +48,13 @@ namespace Infrastructure.Repositories
                                        .SetProperty(x => x.MidName, entity.MidName)
                                        .SetProperty(x => x.Birthday, entity.Birthday)
                                      ) > 0;
-
-
         }
 
-        public async Task<List<PersonView>?> GetAllAsync()
+        public  async Task<IQueryable<Person>?> GetAllAsync()
         {
             // Then Create Table View To represent The Data 
-            return await _context.personViews
-                                 .AsNoTracking()
-                                 .ToListAsync();
+            return await (Task<IQueryable<Person>?>)_context.Set<Person>()
+                                                          .AsNoTracking();
         }
 
         public async Task<Person?> GetByIDAsync(int ID)
@@ -68,5 +65,14 @@ namespace Infrastructure.Repositories
                           .SingleOrDefaultAsync(P => P.PersonId == ID);
         }
 
+        public Task<IEnumerable<Person>> FindAsync(ISepecification<Person> sepecification)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> IsValid_UserNameAndPasswordAsync(ISepecification<Person> sepecification)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

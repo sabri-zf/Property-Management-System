@@ -2,12 +2,12 @@
 {
     public record ClsPersonResponsDto 
         (
-        string FirstName,
-        string LastName,
-        string? MidName,
-        DateOnly BirthDay,
-         DateTime CreateAt,
-        DateTime? UpdateAt
+            string FirstName,
+            string LastName,
+            string? MidName,
+            DateOnly BirthDay,
+            DateTime CreateAt,
+            DateTime? UpdateAt
         );
   
 }

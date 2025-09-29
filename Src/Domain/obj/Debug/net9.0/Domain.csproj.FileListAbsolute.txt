@@ -1,0 +1,12 @@
+B:\C#_projects\Property_Management_System\Src\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+B:\C#_projects\Property_Management_System\Src\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+B:\C#_projects\Property_Management_System\Src\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+B:\C#_projects\Property_Management_System\Src\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+B:\C#_projects\Property_Management_System\Src\Domain\obj\Debug\net9.0\Domain.sourcelink.json
+B:\C#_projects\Property_Management_System\Src\Domain\bin\Debug\net9.0\Domain.deps.json
+B:\C#_projects\Property_Management_System\Src\Domain\bin\Debug\net9.0\Domain.dll
+B:\C#_projects\Property_Management_System\Src\Domain\bin\Debug\net9.0\Domain.pdb
+B:\C#_projects\Property_Management_System\Src\Domain\obj\Debug\net9.0\Domain.dll
+B:\C#_projects\Property_Management_System\Src\Domain\obj\Debug\net9.0\refint\Domain.dll
+B:\C#_projects\Property_Management_System\Src\Domain\obj\Debug\net9.0\Domain.pdb
+B:\C#_projects\Property_Management_System\Src\Domain\obj\Debug\net9.0\ref\Domain.dll

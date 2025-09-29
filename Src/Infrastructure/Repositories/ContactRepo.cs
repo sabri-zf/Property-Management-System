@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories
 {
-    public class ContactRepo:IRepository<Contact>
+    public class ContactRepo : IRepository<Contact>
     {
         readonly AppdbContext _context;
 
@@ -36,7 +36,7 @@ namespace Infrastructure.Repositories
         public async Task<bool> UpdateAsync(Contact entity)
         {
 
-            if (entity is not User) throw new NullReferenceException("User Object doesn't Exist");
+            if (entity is not Contact) throw new NullReferenceException("User Object doesn't Exist");
             if (entity.ContactId < 1) throw new InvalidOperationException(" ID is not Valid");
 
             return await _context.Contacts
@@ -49,12 +49,13 @@ namespace Infrastructure.Repositories
 
         }
 
-        public async Task<List<ContactView>?> GetAllAsync()
+        public async Task<IQueryable<Contact>?> GetAllAsync()
         {
             // Then Create Table View To represent The Data 
-            return await _context.ContactViews
-                                 .AsNoTracking()
-                                 .ToListAsync();
+            return await (Task<IQueryable<Contact>?>) _context.Contacts
+                                                              .Include(x => x.People)
+                                                              .AsNoTracking();
+                                 
         }
 
         public async Task<Contact?> GetByIDAsync(int ID)
@@ -65,5 +66,14 @@ namespace Infrastructure.Repositories
                           .SingleOrDefaultAsync(P => P.ContactId == ID);
         }
 
+        public Task<IEnumerable<Contact>> FindAsync(ISepecification<Contact> sepecification)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> IsValid_UserNameAndPasswordAsync(ISepecification<Contact> sepecification)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

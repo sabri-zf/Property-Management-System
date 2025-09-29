@@ -3,7 +3,7 @@ using Domain.Interfaces;
 
 namespace Infrastructure.Unit_Of_Work
 {
-    internal class UnitOfWork(AppdbContext _context) : IUnitOfWork
+    public class UnitOfWork(AppdbContext _context) : IUnitOfWork
     {
         public async Task<int> SaveAsync()
         {

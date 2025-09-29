@@ -5,7 +5,7 @@ namespace Application.DTOs.UserManagementDto.UsersDto
     public record ClsUserRequestDto
     (
         int ID,
-        ClsPersonResponsDto Person,
+        int personID,
         string Username,
         string Password,
         DateTime CreateAt,

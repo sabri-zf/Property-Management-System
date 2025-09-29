@@ -1,9 +1,32 @@
-using Infrastructure.
-var builder = WebApplication.CreateBuilder(args);
+using Infrastructure.Extensions;
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDependencyGroup_Infrastructure();
-var app = builder.Build();
+        var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+        if (connectionString == null) throw new InvalidDataException(nameof(connectionString) + " is invalid :(");
+        
 
-app.MapGet("/", () => "Hello World!");
+        builder.Services.AddDependencyGroup_Infrastructure(connectionString);
 
-app.Run();
+        builder.Services.AddControllers();
+
+
+        var app = builder.Build();
+
+
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseDeveloperExceptionPage();
+        }
+
+        app.UseRouting();
+        //app.MapControllers();
+
+
+
+        app.Run();
+    }
+}
