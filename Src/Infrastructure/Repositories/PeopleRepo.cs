@@ -50,11 +50,11 @@ namespace Infrastructure.Repositories
                                      ) > 0;
         }
 
-        public  async Task<IQueryable<Person>?> GetAllAsync()
+        public  async Task<IEnumerable<Person>?> GetAllAsync()
         {
             // Then Create Table View To represent The Data 
-            return await (Task<IQueryable<Person>?>)_context.Set<Person>()
-                                                          .AsNoTracking();
+            return await _context.Set<Person>()
+                                 .AsNoTracking().ToListAsync();
         }
 
         public async Task<Person?> GetByIDAsync(int ID)
@@ -70,9 +70,6 @@ namespace Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<bool> IsValid_UserNameAndPasswordAsync(ISepecification<Person> sepecification)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }

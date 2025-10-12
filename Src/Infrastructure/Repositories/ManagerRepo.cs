@@ -45,10 +45,10 @@ namespace Infrastructure.Repositories
                                     .ExecuteUpdateAsync(p => p) > 0;
         }
 
-        public async Task<IQueryable<Manager>?> GetAllAsync()
+        public async Task<IEnumerable<Manager>?> GetAllAsync()
         {
             // Then Create Table View To represent The Data 
-            return await (Task<IQueryable<Manager>?>)_context.Managers
+            return await (Task<IEnumerable<Manager>?>)_context.Managers
                                                                .Include(M => M.User)
                                                                .ThenInclude(U => U.Person)
                                                                .AsNoTracking();
@@ -67,9 +67,6 @@ namespace Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<bool> IsValid_UserNameAndPasswordAsync(ISepecification<Manager> sepecification)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }

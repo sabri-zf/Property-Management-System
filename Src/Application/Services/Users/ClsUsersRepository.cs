@@ -5,13 +5,13 @@ using Application.Extensions;
 
 namespace Application.Services.Users
 {
-    public class ClsUsers
+    public class ClsUsersRepository
     {
         private readonly IRepository<User> _UserRepo;
         private readonly IUnitOfWork _UnitOfWork;
 
 
-        public ClsUsers(IRepository<User> peopleRepo, IUnitOfWork unitOfWork)
+        public ClsUsersRepository(IRepository<User> peopleRepo,IUnitOfWork unitOfWork)
         {
             _UserRepo = peopleRepo;
             _UnitOfWork = unitOfWork;
@@ -115,7 +115,7 @@ namespace Application.Services.Users
             return false;
         }
 
-        public async Task<IQueryable<User>?> FetchAllPeopleAsync()
+        public async Task<IEnumerable<User>?> FetchAllUsersAsync()
         {
             try
             {
@@ -128,18 +128,6 @@ namespace Application.Services.Users
             return null;
         }
 
-        public async Task<bool> checkInUserInfoIsValid(string username, string password)
-        {
-
-            var spec = new ClsCheckUserNameAndPassword_ValidSpecification(username, password);
-
-            if ( await _UserRepo.IsValid_UserNameAndPasswordAsync(spec))
-            {
-                return true;
-            }
-
-
-            return false;
-        }
+     
     }
 }

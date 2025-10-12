@@ -49,10 +49,10 @@ namespace Infrastructure.Repositories
 
         }
 
-        public async Task<IQueryable<Contact>?> GetAllAsync()
+        public async Task<IEnumerable<Contact>?> GetAllAsync()
         {
             // Then Create Table View To represent The Data 
-            return await (Task<IQueryable<Contact>?>) _context.Contacts
+            return await (Task<IEnumerable<Contact>?>) _context.Contacts
                                                               .Include(x => x.People)
                                                               .AsNoTracking();
                                  
@@ -71,9 +71,6 @@ namespace Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<bool> IsValid_UserNameAndPasswordAsync(ISepecification<Contact> sepecification)
-        {
-            throw new NotImplementedException();
-        }
+   
     }
 }

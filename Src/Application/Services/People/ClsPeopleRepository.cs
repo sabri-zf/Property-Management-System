@@ -5,13 +5,13 @@ using Application.Extensions;
 
 namespace Application.Services.People
 {
-    public  class ClsPeopleData
+    public  class ClsPeopleRepository
     {
 
         private readonly IRepository<Person> _PeopleRepo;
         private readonly IUnitOfWork _UnitOfWork;
 
-        public ClsPeopleData(IRepository<Person> peopleRepo, IUnitOfWork unitOfWork)
+        public ClsPeopleRepository(IRepository<Person> peopleRepo, IUnitOfWork unitOfWork)
         {
             _PeopleRepo = peopleRepo;
             _UnitOfWork = unitOfWork;
@@ -119,7 +119,7 @@ namespace Application.Services.People
             return false;
         }
 
-        public async Task<IQueryable<Person>?> FetchAllPeopleAsync()
+        public async Task<IEnumerable<Person>?> FetchAllPeopleAsync()
         {
             try
             {

@@ -8,11 +8,8 @@ internal class Program
         var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
         if (connectionString == null) throw new InvalidDataException(nameof(connectionString) + " is invalid :(");
         
-
         builder.Services.AddDependencyGroup_Infrastructure(connectionString);
-
         builder.Services.AddControllers();
-
 
         var app = builder.Build();
 
@@ -22,10 +19,7 @@ internal class Program
             app.UseDeveloperExceptionPage();
         }
 
-        app.UseRouting();
-        //app.MapControllers();
-
-
+        app.MapControllers();
 
         app.Run();
     }

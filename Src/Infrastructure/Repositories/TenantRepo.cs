@@ -46,10 +46,10 @@ namespace Infrastructure.Repositories
                                     .SetProperty(x => x.Person.updateAt, entity.Person.updateAt)) > 0;
         }
 
-        public async Task<IQueryable<Tenant>?> GetAllAsync()
+        public async Task<IEnumerable<Tenant>?> GetAllAsync()
         {
             // Then Create Table View To represent The Data 
-            return await (Task<IQueryable<Tenant>?>)_context.Tenants
+            return await (Task<IEnumerable<Tenant>?>)_context.Tenants
                                                             .Include(x => x.Person)
                                                             .AsNoTracking();
         }
@@ -67,9 +67,6 @@ namespace Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<bool> IsValid_UserNameAndPasswordAsync(ISepecification<Tenant> sepecification)
-        {
-            throw new NotImplementedException();
-        }
+     
     }
 }

@@ -2,14 +2,19 @@
   {
     "ContainingType": "PMS_Api.Controllers.UserManagment.LoginController",
     "Method": "Login",
-    "RelativePath": "Api/v1/Login/Login",
+    "RelativePath": "Api/v1/Login/{Username}/{Password}",
     "HttpMethod": "",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "UserDto",
-        "Type": "PMS_Api.Dtos.UserLogIn",
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -36,6 +41,66 @@
           "text/json"
         ],
         "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "PMS_Api.Controllers.UserManagment.PeopleController",
+    "Method": "AddNewPerosn",
+    "RelativePath": "Api/V1/People/AddPerson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Application.DTOs.UserManagementDto.PeopleDto.ClsPersonRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Application.DTOs.UserManagementDto.PeopleDto.ClsPersonResponsDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PMS_Api.Controllers.UserManagment.PeopleController",
+    "Method": "GetAllPeople",
+    "RelativePath": "Api/V1/People/FitchAllPeople",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.Person",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   }

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories
 {
-    internal class UserRepo : IRepository<User>
+    internal class UserRepo : IRepository<User>,IUserServers
     {
 
         readonly AppdbContext _context;
@@ -47,10 +47,10 @@ namespace Infrastructure.Repositories
                                     .SetProperty(x => x.IsActive, entity.IsActive)
                                   ) > 0;  
         }
-        public async Task<IQueryable<User>?> GetAllAsync()
+        public async Task<IEnumerable<User>?> GetAllAsync()
         {
             // Then Create Table View To represent The Data 
-            return await (Task<IQueryable<User>?>) _context.Users
+            return await (Task<IEnumerable<User>?>) _context.Users
                                  .Include(x => x.Person)
                                  .AsNoTracking();
                                  
@@ -69,7 +69,7 @@ namespace Infrastructure.Repositories
 
         public async Task<bool> IsValid_UserNameAndPasswordAsync(ISepecification<User> sepc)
         {
-            return await sepc.Apply(_context.Users).AnyAsync() ;
+            return await sepc.Apply(_context.Users).AnyAsync();
         }
         public Task<IEnumerable<User>> FindAsync(ISepecification<User> sepecification)
         {

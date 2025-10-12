@@ -1,7 +1,72 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91ADC713-EAEF-4C3B-BDA6-6CC9165F62E5}|..\\PMS_Api\\PMS_Api.csproj|b:\\c#_projects\\property_management_system\\src\\pms_api\\controllers\\usermanagment\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91ADC713-EAEF-4C3B-BDA6-6CC9165F62E5}|..\\PMS_Api\\PMS_Api.csproj|b:\\c#_projects\\property_management_system\\src\\pms_api\\controllers\\usermanagment\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\services\\users\\clsusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91ADC713-EAEF-4C3B-BDA6-6CC9165F62E5}|..\\PMS_Api\\PMS_Api.csproj|b:\\c#_projects\\property_management_system\\src\\pms_api\\controllers\\usermanagment\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\services\\users\\clsuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\services\\users\\clscheckusernameandpassword_validspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\services\\people\\clspeoplerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\extensions\\personmappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978F7496-17D1-4F65-94AA-BEC170772697}|..\\Application\\Application.csproj|b:\\c#_projects\\property_management_system\\src\\application\\dtos\\usermanagementdto\\peopledto\\clspersonrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\peoplerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\peoplerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\extensions\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:extensions\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\adminrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\adminrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\contactrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\contactrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\managerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\managerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|b:\\c#_projects\\property_management_system\\src\\infrastructure\\repositories\\tenantrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B32B44C-BA26-4FA3-B2DA-CA8C1FCA45D8}|Infrastructure.csproj|solutionrelative:repositories\\tenantrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3423F73B-5449-4FFE-A508-1C43BDB99DE0}|..\\Domain\\Domain.csproj|b:\\c#_projects\\property_management_system\\src\\domain\\interfaces\\iuserservers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91ADC713-EAEF-4C3B-BDA6-6CC9165F62E5}|..\\PMS_Api\\PMS_Api.csproj|b:\\c#_projects\\property_management_system\\src\\pms_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +74,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 305,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClsUserService.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Services\\Users\\ClsUserService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\Users\\ClsUserService.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Services\\Users\\ClsUserService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\Users\\ClsUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T10:50:59.099Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -18,6 +96,229 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\PMS_Api\\Controllers\\UserManagment\\UserController.cs",
+              "RelativeDocumentMoniker": "..\\PMS_Api\\Controllers\\UserManagment\\UserController.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\PMS_Api\\Controllers\\UserManagment\\UserController.cs",
+              "RelativeToolTip": "..\\PMS_Api\\Controllers\\UserManagment\\UserController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA6wFMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T10:47:29.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PersonMappingExtension.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Extensions\\PersonMappingExtension.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Extensions\\PersonMappingExtension.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Extensions\\PersonMappingExtension.cs",
+              "RelativeToolTip": "..\\Application\\Extensions\\PersonMappingExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T22:10:14.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClsPersonRequestDto.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\DTOs\\UserManagementDto\\PeopleDto\\ClsPersonRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTOs\\UserManagementDto\\PeopleDto\\ClsPersonRequestDto.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\DTOs\\UserManagementDto\\PeopleDto\\ClsPersonRequestDto.cs",
+              "RelativeToolTip": "..\\Application\\DTOs\\UserManagementDto\\PeopleDto\\ClsPersonRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T22:05:03.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DependencyInjectionExtension.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Extensions\\DependencyInjectionExtension.cs",
+              "RelativeDocumentMoniker": "Extensions\\DependencyInjectionExtension.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Extensions\\DependencyInjectionExtension.cs",
+              "RelativeToolTip": "Extensions\\DependencyInjectionExtension.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA2wDEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T21:35:50.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClsUsersRepository.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Services\\Users\\ClsUsersRepository.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\Users\\ClsUsersRepository.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Services\\Users\\ClsUsersRepository.cs",
+              "RelativeToolTip": "..\\Application\\Services\\Users\\ClsUsersRepository.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAIAzwHUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T21:33:35.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminRepo.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\AdminRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\AdminRepo.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\AdminRepo.cs",
+              "RelativeToolTip": "Repositories\\AdminRepo.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA0wDIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T20:34:51.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactRepo.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\ContactRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\ContactRepo.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\ContactRepo.cs",
+              "RelativeToolTip": "Repositories\\ContactRepo.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwDYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T20:34:36.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserServers.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Interfaces\\IUserServers.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUserServers.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Interfaces\\IUserServers.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUserServers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T20:26:20.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClsCheckUserNameAndPassword_ValidSpecification.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Services\\Users\\ClsCheckUserNameAndPassword_ValidSpecification.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\Users\\ClsCheckUserNameAndPassword_ValidSpecification.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Services\\Users\\ClsCheckUserNameAndPassword_ValidSpecification.cs",
+              "RelativeToolTip": "..\\Application\\Services\\Users\\ClsCheckUserNameAndPassword_ValidSpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T20:08:39.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\UserRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepo.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\UserRepo.cs",
+              "RelativeToolTip": "Repositories\\UserRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T20:08:02.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManagerRepo.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\ManagerRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\ManagerRepo.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\ManagerRepo.cs",
+              "RelativeToolTip": "Repositories\\ManagerRepo.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwDIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T20:06:30.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TenantRepo.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\TenantRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\TenantRepo.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\TenantRepo.cs",
+              "RelativeToolTip": "Repositories\\TenantRepo.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA2wEUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T20:05:52.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepository.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Domain\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T20:05:34.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClsPeopleRepository.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Services\\People\\ClsPeopleRepository.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\People\\ClsPeopleRepository.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Application\\Services\\People\\ClsPeopleRepository.cs",
+              "RelativeToolTip": "..\\Application\\Services\\People\\ClsPeopleRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIAywDYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T19:58:48.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PeopleRepo.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\PeopleRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\PeopleRepo.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\Infrastructure\\Repositories\\PeopleRepo.cs",
+              "RelativeToolTip": "Repositories\\PeopleRepo.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA2wDgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T19:59:16.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PeopleController.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\PMS_Api\\Controllers\\UserManagment\\PeopleController.cs",
+              "RelativeDocumentMoniker": "..\\PMS_Api\\Controllers\\UserManagment\\PeopleController.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\PMS_Api\\Controllers\\UserManagment\\PeopleController.cs",
+              "RelativeToolTip": "..\\PMS_Api\\Controllers\\UserManagment\\PeopleController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAA0wEoAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T19:47:17.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\PMS_Api\\Controllers\\UserManagment\\LoginController.cs",
+              "RelativeDocumentMoniker": "..\\PMS_Api\\Controllers\\UserManagment\\LoginController.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\PMS_Api\\Controllers\\UserManagment\\LoginController.cs",
+              "RelativeToolTip": "..\\PMS_Api\\Controllers\\UserManagment\\LoginController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwCAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T19:24:24.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "B:\\C#_projects\\Property_Management_System\\Src\\PMS_Api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\PMS_Api\\Program.cs",
+              "ToolTip": "B:\\C#_projects\\Property_Management_System\\Src\\PMS_Api\\Program.cs",
+              "RelativeToolTip": "..\\PMS_Api\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA3wBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T19:23:40.075Z"
             }
           ]
         }

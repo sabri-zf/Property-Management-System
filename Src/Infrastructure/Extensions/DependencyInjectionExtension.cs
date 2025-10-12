@@ -47,11 +47,12 @@ namespace Infrastructure.Extensions
             services.AddScoped<IRepository<Manager>, ManagerRepo>();
             services.AddScoped<IRepository<Tenant>, TenantRepo>();
             services.AddScoped<IRepository<User>, UserRepo>();
+            services.AddScoped<IUserServers,UserRepo>();
             services.AddScoped<IRepository<Contact>, ContactRepo>();
             services.AddScoped<IUnitOfWork,UnitOfWork>();
 
-            services.AddScoped<ClsPeopleData>();
-            services.AddScoped<ClsUsers>();
+            services.AddScoped<ClsPeopleRepository>();
+            services.AddScoped<ClsUsersRepository>();
 
 
             return services;
